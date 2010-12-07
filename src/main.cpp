@@ -9,9 +9,8 @@
 #include <stdexcept>
 #include <fstream>
 
-#include <Foundation/commonsvcs/nevot/NEVoT.hpp>
+#include "nevot/NEVoT.hpp"
 
-using namespace Cdmw::CommonSvcs;
 
 int main( int argc, char* argv[] )
 {

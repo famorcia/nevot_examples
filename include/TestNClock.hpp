@@ -2,7 +2,6 @@
 #define TESTNCLOCK_HPP
 
 #include <cppunit/extensions/HelperMacros.h>
-#include <Foundation/commonsvcs/nevot/NUnknownEntry.hpp>
 
 class TestNClock : public CppUnit::TestFixture
 {

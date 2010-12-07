@@ -2,7 +2,7 @@
 #define TESTNCLOCKCATALOG_HPP
 
 #include <cppunit/extensions/HelperMacros.h>
-#include <Foundation/commonsvcs/nevot/NUnknownEntry.hpp>
+#include "nevot/NUnknownEntry.hpp"
 
 class TestNClockCatalog : public CppUnit::TestFixture
 {
@@ -13,7 +13,7 @@ public:
     void tearDown();
 
     CPPUNIT_TEST_SUITE( TestNClockCatalog );
-        CPPUNIT_TEST_EXCEPTION( test_wrong_entry_in_catalog, Cdmw::CommonSvcs::nevot::NUnknownEntry );
+        CPPUNIT_TEST_EXCEPTION( test_wrong_entry_in_catalog, nevot::NUnknownEntry );
         CPPUNIT_TEST( test_iterator);
     CPPUNIT_TEST_SUITE_END();
 

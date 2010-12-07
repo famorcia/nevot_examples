@@ -1,4 +1,4 @@
-#if 1
+#if 0
 void use_CORBA_EVOT()
 {
     // set strategies
@@ -118,4 +118,3 @@ Example::~Example(void)
 {
 }
 #endif
-j

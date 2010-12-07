@@ -1,7 +1,6 @@
 #include "TestNClockCatalog.hpp"
-#include <Foundation/commonsvcs/nevot/NClockCatalog.hpp>
+#include "nevot/NClockCatalog.hpp"
 
-using namespace Cdmw::CommonSvcs;
 
 CPPUNIT_TEST_SUITE_REGISTRATION( TestNClockCatalog );
 
@@ -27,9 +26,12 @@ void TestNClockCatalog::tearDown()
 void TestNClockCatalog::test_wrong_entry_in_catalog()
 {
     // 1 line of initialization
-    nevot::NClockCatalog::NClockEntries entry = nevot::NClockCatalog::get_entry("Not available entry!");
-    nevot::NTimeBase::TimeT local_time = entry.second->current_time();
+    nevot::NClockCatalog::NClockEntry entry = nevot::NClockCatalog::get_entry("Not available entry!");
+    nevot::NTimeBase::NTimeT local_time = entry.second->current_time();
 }
 
 
-    void TestNClockCatalog::test_iterator();
+void TestNClockCatalog::test_iterator()
+{
+    CPPUNIT_ASSERT(false);
+}
