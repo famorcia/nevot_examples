@@ -35,3 +35,4 @@ void TestNClockCatalog::test_iterator()
 {
     CPPUNIT_ASSERT(false);
 }
+
