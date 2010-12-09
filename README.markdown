@@ -8,8 +8,8 @@ Note
 ----
 
 Makefile(s) are not completed yet, nevot_examples requires:
-- cppunit (1.12.1)
-- nevot (directory at the same level)
+* cppunit (1.12.1)
+* nevot (directory at the same level)
 
   Fabrizio
 
