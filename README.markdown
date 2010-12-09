@@ -7,7 +7,7 @@ Please look also at _NEVoT_.
 Note
 ----
 
-Makefile(s) are not completed yet, nevot_examples requires:
+Makefile(s) are not completed yet, nevot_examples requires:  
 * cppunit (1.12.1)  
 * nevot (directory at the same level)  
   
